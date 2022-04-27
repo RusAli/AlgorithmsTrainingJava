@@ -29,4 +29,16 @@ public class SumArrayTest {
     Assertions.assertEquals(expected,actual);
 
   }
+
+  @Test
+  public void testemptySumArray(){
+    int[] arr = {};
+    int expected = 0;
+
+    SumArray sumArray = new SumArray();
+    int actual = sumArray.sumArray(arr);
+
+    Assertions.assertEquals(expected,actual);
+
+  }
 }
