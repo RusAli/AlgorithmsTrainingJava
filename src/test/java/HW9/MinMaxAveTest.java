@@ -33,19 +33,17 @@ public class MinMaxAveTest {
   }
 
   @Test
-  public void testMinMaxAveWithInvalidEndIndex(){
+  public void testMinMaxAveWithInvalidIndexes(){
 
     int[] array = {1, 2, 3, 4, 5, 6, 7, 8};
-    int startIndex = 3;
-    int endIndex = 1;
+    int startIndex = -2;
+    int endIndex = 2222;
     int[] expected = {};
 
     int[] actual = MinMaxAve.minMaxAve(array,startIndex,endIndex);
 
     Assertions.assertArrayEquals(expected,actual);
   }
-
-
 
 
 }
