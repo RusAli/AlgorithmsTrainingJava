@@ -7,7 +7,8 @@ public class KthLargest {
 
     if(arr != null & arr.length >0 && index >0 && index <= arr.length){
       int k = arr.length - index;
-      SortArray.sortArray(arr);
+      SortArray sortArray = new SortArray();
+      sortArray.sortArray(arr);
       return arr[k];
 
     }

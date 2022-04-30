@@ -11,7 +11,8 @@ public class SortArrayTest {
     int[] arr = {4, 3, 7, 12, 5, 2, 9, 4, 12};
     int[] expected = {2, 3, 4, 4, 5, 7, 9, 12, 12};
 
-    int[] actual = SortArray.sortArray(arr);
+    SortArray sortArray = new SortArray();
+    int[] actual = sortArray.sortArray(arr);
 
     Assertions.assertArrayEquals(expected,actual);
   }
@@ -22,7 +23,8 @@ public class SortArrayTest {
     int[] arr = {};
     int[] expected = {};
 
-    int[] actual = SortArray.sortArray(arr);
+    SortArray sortArray = new SortArray();
+    int[] actual = sortArray.sortArray(arr);
 
     Assertions.assertArrayEquals(expected,actual);
   }
