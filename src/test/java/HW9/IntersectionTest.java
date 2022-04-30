@@ -12,7 +12,8 @@ public class IntersectionTest {
     int[] arr2 ={8, 9, 4, 2};
     int[] excepted = {2,4};
 
-    int[] actual = Intersection.intersection(arr1,arr2);
+    Intersection intersection = new Intersection();
+    int[] actual = intersection.intersection(arr1,arr2);
 
     Assertions.assertArrayEquals(excepted,actual);
   }
@@ -23,7 +24,8 @@ public class IntersectionTest {
     int[] arr2 ={8, 9, -4, -2};
     int[] excepted = {8, 9};
 
-    int[] actual = Intersection.intersection(arr1,arr2);
+    Intersection intersection = new Intersection();
+    int[] actual = intersection.intersection(arr1,arr2);
 
     Assertions.assertArrayEquals(excepted,actual);
   }
@@ -34,7 +36,8 @@ public class IntersectionTest {
     int[] arr2 ={8, 9, 45};
     int[] excepted = {};
 
-    int[] actual = Intersection.intersection(arr1,arr2);
+    Intersection intersection = new Intersection();
+    int[] actual = intersection.intersection(arr1,arr2);
 
     Assertions.assertArrayEquals(excepted,actual);
   }
@@ -45,7 +48,8 @@ public class IntersectionTest {
     int[] arr2 ={};
     int[] excepted = {};
 
-    int[] actual = Intersection.intersection(arr1,arr2);
+     Intersection intersection = new Intersection();
+     int[] actual = intersection.intersection(arr1,arr2);
 
     Assertions.assertArrayEquals(excepted,actual);
   }

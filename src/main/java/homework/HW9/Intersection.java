@@ -2,7 +2,7 @@ package homework.HW9;
 
 public class Intersection {
 
-  public static int[] intersection(int[] arr1, int[] arr2){
+  public int[] intersection(int[] arr1, int[] arr2){
 
     if(arr1 != null && arr2 != null && arr1.length > 0 && arr2.length > 0){
 
