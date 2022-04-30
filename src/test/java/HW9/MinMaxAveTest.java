@@ -14,7 +14,8 @@ public class MinMaxAveTest {
     int endIndex = 6;
     int[] expected = {3, 7, 5};
 
-    int[] actual = MinMaxAve.minMaxAve(array,startIndex,endIndex);
+    MinMaxAve minMaxAve = new MinMaxAve();
+    int[] actual = minMaxAve.minMaxAve(array,startIndex,endIndex);
 
     Assertions.assertArrayEquals(expected,actual);
   }
@@ -27,7 +28,8 @@ public class MinMaxAveTest {
     int endIndex = 6;
     int[] expected = {};
 
-    int[] actual = MinMaxAve.minMaxAve(array,startIndex,endIndex);
+    MinMaxAve minMaxAve = new MinMaxAve();
+    int[] actual = minMaxAve.minMaxAve(array,startIndex,endIndex);
 
     Assertions.assertArrayEquals(expected,actual);
   }
@@ -40,7 +42,8 @@ public class MinMaxAveTest {
     int endIndex = 2222;
     int[] expected = {};
 
-    int[] actual = MinMaxAve.minMaxAve(array,startIndex,endIndex);
+    MinMaxAve minMaxAve = new MinMaxAve();
+    int[] actual = minMaxAve.minMaxAve(array,startIndex,endIndex);
 
     Assertions.assertArrayEquals(expected,actual);
   }

@@ -4,7 +4,7 @@ import Helpers.BubbleSort;
 
 public class MinMaxAve {
 
-  public static int[] minMaxAve(int[] array, int startIndex, int endIndex) {
+  public int[] minMaxAve(int[] array, int startIndex, int endIndex) {
 
     if (array != null && array.length > 0) {
       if (endIndex >= startIndex && startIndex >=0 && endIndex <= array.length-1) {
