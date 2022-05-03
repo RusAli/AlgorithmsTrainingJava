@@ -19,4 +19,17 @@ public class SumOfTwoTest {
 
     Assertions.assertTrue(Arrays.deepEquals(expected,actual));
   }
+
+
+  @Test
+  public void testSumOfTwoWithEmptyArray(){
+    int[] arr = {};
+    int sum = 12;
+    int[][] expected = {};
+
+    SumOfTwo sumOfTwo = new SumOfTwo();
+    int[][] actual = sumOfTwo.sumOfTwo(arr,sum);
+
+    Assertions.assertTrue(Arrays.deepEquals(expected,actual));
+  }
 }

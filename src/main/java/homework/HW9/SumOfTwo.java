@@ -3,7 +3,7 @@ package homework.HW9;
 public class SumOfTwo {
 
   public int[][] sumOfTwo(int[] arr, int sum){
-    if(arr != null && arr.length > 0 && sum >=0){
+    if(arr != null && arr.length > 0){
 
       int  countPair = 0;
 
