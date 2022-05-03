@@ -23,10 +23,7 @@ public class SumOfTwo {
           if(arr[i] + arr[j] == sum){
             result[indexResult][0] = arr[i];
             result[indexResult][1] = arr[j];
-              if(indexResult < countPair-1){
-              indexResult++;
-              }
-
+            indexResult++;
           }
 
         }
