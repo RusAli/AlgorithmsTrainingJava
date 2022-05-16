@@ -64,6 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="HW9.OddIndicesTest" name="HW9.OddIndicesTest.testOddIndices" time="0"/>
   <testcase classname="HW9.OddIndicesTest" name="HW9.OddIndicesTest.testEmptyArray" time="0"/>
+  <testcase classname="HW9.OddIndicesTest" name="HW9.OddIndicesTest.testOddIndices" time="0"/>
 </testsuite>

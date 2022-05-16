@@ -1,6 +1,5 @@
 package HW10;
 
-import homework.HW10.StringToLetters;
 import homework.HW10.StringToLettersAndSpaces;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
